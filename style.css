@@ -16,7 +16,6 @@
 .title {
     color: var(--radio-color);
     text-align: center;
-
     text-decoration: underline;
 }
 
@@ -25,7 +24,7 @@
     display: grid;
     border: 4px solid gray;
     text-align: center;
-    height: 40%;
+    height: 30%;
     width: 60%;
     font-size: 25px;
 }
@@ -94,8 +93,8 @@ input[type="radio"]:checked {
 }
 
 #Green {
-    --radio-color: green;
-    color: green;
+    --radio-color: rgb(14, 70, 33);
+    color: rgb(14, 70, 33);;
 }
 
 #Dark {
@@ -121,7 +120,7 @@ input[type="radio"]:checked {
 }
 
 :root:has(#Green:checked) {
-    background-color: green;
+    background-color: rgb(14, 70, 33);;
 }
 
 :root:has(#Grey:checked) {
